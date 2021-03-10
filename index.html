@@ -7,6 +7,7 @@
   <title>HTML traning</title>
 </head>
 <body>
+  <a name="upPage"></a>
 <!--Заголовки 6 видов, от большего к меньшему, <big>-текст чуть больше, <small>-текст чуть меньше-->
   <h1>Заголовок <small>1</small></h1>
   <h2>Заголовок <big>2</big></h2>
@@ -28,15 +29,24 @@
     <pre>function some() {
         retutn "some"
       }</pre> <br>
-<!--<ol>-нумерованный список, <ul>-не нумерованный список,-->
-  <ol>
+<!--<ol>-нумерованный список, <ul>-не нумерованный список, <start>-начало списка, <type>-формат нумерации -->
+  <ol start="3" type="I">
     <li>Молоко</li>
     <li>Хлеб</li>
     <li>Крупа</li>
     <li>Мясо</li>
     <li>Масло</li>
   </ol>
+  <ul type="circle">
+    <li>Молоко</li>
+    <li>Хлеб</li>
+    <li>Мясо</li>
+  </ul>
   
+  <!--Ссылки <blank>-открыть в новом окне, #upPage-якорь для перехда по страницу(вверху name="upPage")-->
+  <a href="https://www.google.ru/" target="blank">Перейти в Google</a> <br>
+  <a href="index.html">Обновить страницу</a><br>
+  <a href="#upPage">Вверх</a><br>
     
 
 </body>
