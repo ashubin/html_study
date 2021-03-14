@@ -81,9 +81,51 @@
     </tfoot>
   </table>
     
-<!--<div>-универсальный блочный элемент, <span>-универсальный строчный элемент-->
-  <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quia natus eum laborum saepe labore repellendus dolorem aliquam culpa cupiditate animi aspernatur, dolore voluptatibus asperiores similique quam, autem ratione libero.</div>
-  <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos eum officia optio officiis reprehenderit perspiciatis fugit architecto nesciunt molestiae porro id necessitatibus obcaecati, modi voluptatibus aut pariatur beatae aperiam velit.</span>
+<!--<div>-универсальный блочный элемент, <span>-универсальный строчный элемент, можно выделять что-то в предложении-->
+  <div>Lorem ipsum dolor sit amet <span>adipisicing elit.</span>  Praesentium quia natus eum laborum saepe labore repellendus dolorem aliquam culpa cupiditate animi aspernatur, dolore voluptatibus asperiores similique quam, autem ratione libero.</div><br>
+  <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos eum officia optio officiis reprehenderit perspiciatis fugit architecto nesciunt molestiae porro id necessitatibus obcaecati, modi voluptatibus aut pariatur beatae aperiam velit.</span><br><br>
+
+  <!-- <form>-форма reqired - обязательно для заполнения-->
+    <form action="" method="post">
+      <label for="user_name">Введит Имя</label>
+      <input type="text" placeholder="Введите что-то" value="что-то" maxlength="9" name="user_name" id="user_name"><br>
+      <input type="password"><br>
+      <input type="email"><br>
+      <input type="color"><br>
+      <input type="date"><br>
+      <input type="checkbox"><br>
+      <input type="radio" name="state">
+      <input type="radio" name="state"><br>
+      <input type="submit" value="Отправить"><br>
+      <input type="reset" value="Очистить"><br>
+
+      <textarea name="" id="" cols="30" rows="10">какой-то текст</textarea><br>
+      <button type="reset">reset</button><br><br><br>
+
+      <!-- Селекторы -->
+      <select multiple size="3">
+        <option disabled selected>------</option>
+        <option value="">Выбор 1</option>
+        <option value="">Выбор 2</option>
+        <option >Выбор 3</option>
+        <option value="">Выбор 4</option>
+        <option value="">Выбор 5</option>
+      </select>
+    </form>
+
+      <!-- Теги сайта -->
+      <header>Шапка</header>
+      <main>Основная часть сайта</main>
+      <aside>Боковая часть сайта</aside>
+      <footer>Подвал</footer>
+      <progress max="100" value="20"></progress>
+
+      <details>
+        <summary>Подробнее</summary>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus corrupti quos perferendis error laborum facere minus deleniti eum praesentium pariatur tempore non, repellendus, incidunt rerum maxime consectetur. Placeat, quaerat doloribus?
+      </details>
+
+    
   
 <!--Подключение скрипта js-->
 <script src="/js/app.js"></script>
